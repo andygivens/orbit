@@ -1,0 +1,17 @@
+{
+  "name": "orbit",
+  "version": "1.0.0",
+  "description": "A Python service that provides two-way calendar synchronization between Apple iCloud (via CalDAV) and Skylight frames (via unofficial API).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate-openapi": "node docs/openapi/validate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+@import "./styles/tokens.css";
+@import "./styles/design-system.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+* {
+  @apply border-border;
+}

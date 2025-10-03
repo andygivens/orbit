@@ -1,0 +1,110 @@
+@layer components {
+  .orbit-surface {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border-radius: var(--radius-1);
+    border: 1px solid hsl(var(--color-border) / 0.16);
+    box-shadow: var(--shadow-2);
+    padding: var(--space-lg);
+  }
+
+  .orbit-panel {
+    background-color: var(--color-hover);
+    border-radius: var(--radius-1);
+    border: 1px solid hsl(var(--color-border) / 0.1);
+    box-shadow: var(--shadow-1);
+    padding: var(--space-md);
+  }
+
+  .orbit-heading-xl {
+    font-family: var(--font-sans);
+    font-size: var(--type-display);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--color-text-strong);
+  }
+
+  .orbit-heading-lg {
+    font-family: var(--font-sans);
+    font-size: var(--type-h1);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    color: var(--color-text-strong);
+  }
+
+  .orbit-text-subtle {
+    color: var(--color-text-soft);
+    font-size: var(--type-body);
+    line-height: 1.5;
+  }
+
+  .orbit-divider {
+    width: 100%;
+    height: 1px;
+    background: hsl(var(--color-border) / 0.12);
+    border-radius: var(--radius-sm);
+  }
+}
+
+@layer utilities {
+  .orbit-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    border-radius: var(--radius-2);
+    background: rgba(15, 23, 42, 0.05);
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-strong);
+  }
+
+  .orbit-pill-muted {
+    background: rgba(148, 163, 184, 0.14);
+    color: var(--color-text-soft);
+  }
+
+  .orbit-focus-ring {
+    outline: 2px solid hsl(var(--color-accent) / 0.55);
+    outline-offset: 3px;
+  }
+
+  .orbit-text-muted {
+    color: hsl(var(--color-muted-foreground) / 1);
+  }
+
+  .orbit-grid-gap {
+    gap: var(--space-lg);
+  }
+
+  .shadow-elev-1 {
+    box-shadow: var(--shadow-1);
+  }
+
+  .shadow-elev-2 {
+    box-shadow: var(--shadow-2);
+  }
+
+  .shadow-elev-3 {
+    box-shadow: var(--shadow-3);
+  }
+
+  .orbit-type-display {
+    font-size: var(--type-display);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+
+  .orbit-type-h1 {
+    font-size: var(--type-h1);
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+  }
+
+  .orbit-type-h2 {
+    font-size: var(--type-h2);
+    line-height: 1.3;
+  }
+}

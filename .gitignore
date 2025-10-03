@@ -1,0 +1,111 @@
+# Environment and secrets
+.env
+*.env.local
+
+# Database files (will be recreated)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Lint / type checker caches
+.ruff_cache/
+.mypy_cache/
+
+# Test/benchmark tools
+.tox/
+.benchmarks/
+
+# Coverage reports
+coverage.xml
+
+# Generated docs site & temp staging
+app/static/docs_site/
+docs/
+docs/tmp/
+
+# Local scripts (kept outside repo)
+scripts/
+dev.sh
+
+# Frontend build caches (not needed in VCS)
+ui/.eslintcache
+ui/*.tsbuildinfo
+
+# Merge conflict backups
+*.orig
+
+# Ignore debug static troubleshooting assets (treat as local helpers)
+app/static/debug/
+
+# Ignore deprecated subtree (legacy code retained locally only)
+deprecated/
+
+# Temporary files
+*.tmp
+*.temp
+edit-env.sh
+
+# Frontend artifacts
+ui/node_modules/
+ui/dist/
+app/static/ui/
+
+# Docker
+.dockerignore
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OAuth test directory (optional - uncomment to ignore)
+# oauth-test/
